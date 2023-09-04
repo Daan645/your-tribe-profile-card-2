@@ -1,59 +1,99 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
+<head>
+    <style>
+        .grid-container {
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+            background-color: #2196F3;
+            padding: 10px;
+            border-radius: 30px; #important
+            width: 50px;
+        }
+
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+
+            padding: 10px;
+            font-size: 30px;
+            text-align: left;
+        }
+
+        text {
+            text-align: left;
+        }
+        .grid-container{
+
+        }
+
+
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDND Visitekaartje</title>
+    <title>FDND Visitekaartje Daan Jacobs</title>
     <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    
-    <article>
-      
-      <header>
-        
-        <h1>Jane Doe</h1>
-        
-        <p><em>Creatieve Frontend Developer in spé</em></p>
-        
-        <button>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <title>Wijzig layout</title>
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-        </button>
-        
-      </header>
-  
-      <img src="assets/creative-coder.png" alt="" width="800" height="800">
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item"><img src="/img/profilePicture.jpg"></div>
+    <div class="grid-item">Naam: Daan Jacobs <br> Leeftijd: 22<br>Woonplaats: Almere</div>
+    <div class="grid-item"></div>
+    <div class="grid-item">Hobbies: Gym, Gamen, DJ</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
 
-      <dl>
-        <dt>HTML</dt>
-        <dd>🏆🏆🏆</dd>
-        
-        <dt>CSS</dt>
-        <dd>🏆🏆</dd>
-        
-        <dt>JavaScript</dt>
-        <dd>🏆🏆🏆🏆</dd>
-      </dl>
-  
-      <p>Het WEB is te gek! <br> Met HTML, CSS en JavaScript kan ik vette, interactieve web apps maken.</p>
-      
-    </article>
+</div>
 
-    <script src="scripts/script.js"></script>
-    
-  </body>
+</body>
+<!--  <body>-->
+<!--    -->
+<!--    <article>-->
+<!--      -->
+<!--      <header>-->
+<!--        -->
+<!--        <h1>Jane Doe</h1>-->
+<!--        -->
+<!--        <p><em>Creatieve Frontend Developer in spé</em></p>-->
+<!--        -->
+<!--        <button>-->
+<!--          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">-->
+<!--            <title>Wijzig layout</title>-->
+<!--            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>-->
+<!--            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>-->
+<!--            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>-->
+<!--            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>-->
+<!--            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>-->
+<!--          </svg>-->
+<!--          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">-->
+<!--            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>-->
+<!--            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>-->
+<!--            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>-->
+<!--            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>-->
+<!--            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>-->
+<!--          </svg>-->
+<!--        </button>-->
+<!--        -->
+<!--      </header>-->
+<!--  -->
+<!--      <img src="assets/creative-coder.png" alt="" width="800" height="800">-->
+
+<!--      <dl>-->
+<!--        <dt>HTML</dt>-->
+<!--        <dd>🏆🏆🏆</dd>-->
+<!--        -->
+<!--        <dt>CSS</dt>-->
+<!--        <dd>🏆🏆</dd>-->
+<!--        -->
+<!--        <dt>JavaScript</dt>-->
+<!--        <dd>🏆🏆🏆🏆</dd>-->
+<!--      </dl>-->
+<!--  -->
+<!--      <p>Het WEB is te gek! <br> Met HTML, CSS en JavaScript kan ik vette, interactieve web apps maken.</p>-->
+<!--      -->
+<!--    </article>-->
+
+<!--    <script src="scripts/script.js"></script>-->
+<!--    -->
+<!--  </body>-->
 </html>
