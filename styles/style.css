@@ -3,7 +3,20 @@
 header{
     background-image: url("../img/florian-olivo-4hbJ-eymZ1o-unsplash-scaled-e1616631053918.jpg") ;
 padding: 70px;
+    margin-top: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
 }
+
+button {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    background: linear-gradient(#242426, black);
+}
+
+
 header h1{
     color: white;
     /*lijnt de tekst naar het midden uit*/
@@ -11,10 +24,27 @@ header h1{
 }
 
 body{
+
     margin: 0;
-    background: linear-gradient(black, grey);
-    background-repeat: no-repeat;
+    background-image: url('https://media.giphy.com/media/l1J9xRxf0x8zMnA4g/giphy.gif');
+    background-size: cover;
+    /*background: linear-gradient(black, grey);*/
+    /*background-repeat: no-repeat;*/
     height: 100vh;
+
+}
+
+.bodycontent{
+   text-align: center;
+   padding-bottom: 0px;
+}
+
+img{
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    display: block;
+    margin: auto;
 
 }
 
@@ -22,11 +52,16 @@ body{
     margin-right: auto;
     margin-left: auto;
     max-width: 2000px;
-    background-color: white;
+    background-color: #242426;
     height: 95vh;
+    border-radius: 40px;
 }
 
+footer{
+    background-image: url("../img/florian-olivo-4hbJ-eymZ1o-unsplash-scaled-e1616631053918.jpg") ;
+    padding: 70px;
 
+}
 
 
 /** {*/
