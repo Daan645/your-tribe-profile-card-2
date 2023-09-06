@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const card = document.querySelector('.card');
+            const profileImage = document.querySelector('#profileImage'); // Voeg een ID toe aan de afbeelding
+
+            profileImage.addEventListener('click', function () {
+                card.classList.toggle('active'); // Voeg of verwijder de "active"-klasse bij klik
+            });
+        });
+    </script>
+
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
     <title>Profile Daan Jacobs</title>
 </head>
-<div class="wrapper">
-<header>
-<h1>Daan Jacobs</h1>
-</header>
 <body>
-<a><img src="img/profilePicture.jpg" alt="Avatar"></a>
-<h1 class="bodycontent">Click on the picture!</h1>
-</body>
+<div class="wrapper">
+
+    <div class="card">
+
+        <div class="front">
+            <header>
+                <h1>Daan Jacobs</h1>
+            </header>
+            <h1 class="bodycontent">Click on the picture!</h1>
+            <img id="arrow" src="img/arrow.png">
+            <a ><img id="profileImage" src="img/profilePicture.jpg" alt="Avatar"></a>
+
+
+        </div>
+        <div class="back">
+            <header>
+                <h1>Daan Jacobs</h1>
+            </header>
+            <h1 class="bodycontent">Click on the picture!</h1>
+            <img id="arrow" src="img/arrow.png">
+            <a ><img id="profileImage" src="img/profilePicture.jpg" alt="Avatar"></a>
+            <!-- Inhoud van de achterkant van de kaart -->
+        </div>
+    </div>
 </div>
+</body>
+
+<!--<div class="wrapper">-->
+<!--    <header>-->
+<!--        <h1>Daan Jacobs</h1>-->
+<!--    </header>-->
+<!--    <body>-->
+<!--    <a><img src="img/profilePicture.jpg" alt="Avatar"></a>-->
+<!--    <h1 class="bodycontent">Click on the picture!</h1>-->
+<!--    </body>-->
+<!--</div>-->
 <!--  <body>-->
 <!--    -->
 <!--    <article>-->
