@@ -209,6 +209,13 @@ footer {
     }
 }
 
+.backCard{
+    background-image: linear-gradient(340deg, #4b3d51, black);
+color: white;
+    box-shadow: black;
+    margin-top: 55%;
+    margin-right: 10%  ;
+}
 
 /** {*/
 /*  box-sizing: border-box;*/
